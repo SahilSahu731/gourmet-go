@@ -53,7 +53,7 @@ export default function Navbar() {
           <motion.div
             whileHover={{ rotate: 180 }}
             transition={{ duration: 0.5 }}
-            className="flex h-10 w-10 items-center justify-center rounded-xl bg-gradient-to-br from-orange-400 to-orange-600 text-white shadow-lg shadow-orange-500/20"
+            className="flex h-10 w-10 items-center justify-center rounded-xl bg-linear-to-br from-orange-400 to-orange-600 text-white shadow-lg shadow-orange-500/20"
           >
             <UtensilsCrossed className="h-6 w-6" />
           </motion.div>

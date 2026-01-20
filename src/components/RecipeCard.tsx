@@ -1,7 +1,6 @@
 "use client";
 
-import { useRecipeStore } from "@/store/useRecipeStore";
-import { Meal } from "@/lib/api";
+import { useRecipeStore, Recipe } from "@/store/useRecipeStore";
 import Link from "next/link";
 import Image from "next/image";
 import { Badge } from "@/components/ui/badge";
@@ -9,7 +8,7 @@ import { MapPin } from "lucide-react";
 import { motion } from "framer-motion";
 
 interface RecipeCardProps {
-  recipe: Meal;
+  recipe: Recipe;
   index?: number;
 }
 
